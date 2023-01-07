@@ -1,0 +1,253 @@
+.containerBlog1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 900px;
+  color: black;
+}
+
+.containerBlog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 900px;
+  color: white;
+
+}
+
+.content {
+  font-size: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  justify-content: center;
+  align-items: center;
+}
+.content > p{
+  color: #000;
+}
+
+.blogImg {
+  /* box-shadow: 0 20px 50px rgb(23, 32, 90); */
+  /* background: #111845a6; */
+  border: 2px solid black;
+
+}
+ .blogImg > img {
+  width: 100%;
+  /* height:200px; */
+ }
+
+ .cbutton{
+  display: flex;
+  flex-direction: column; 
+  border-bottom: 1px solid #EEEEEE; 
+ }
+
+  .cbutton > input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 4rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 1rem;
+    transition: 1s ease-in-out;
+    
+ }
+.containerBlog > h3{
+  margin-top: 1rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.title,
+.blogImg,
+.content,
+.comment {
+  margin: 30px 0 30px;
+
+}
+
+.title {
+  font-weight: 10;
+  position: relative;
+  font-family: "Incosolata", Consolas, monospace;
+  font-size: 3em;
+}
+
+/* .title::after {
+  content: '|';
+  position: absolute;
+  right: 0;
+  color: #273686;
+  background-color: white;
+  width: 100%;
+  animation: typing 5s steps(14) alternate infinite;
+}
+
+@keyframes typing {
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes line {
+  50% {
+    color: transparent;
+  }
+} */
+
+.textareaBlog {
+  width: 40vw;
+  background-color: #dddddd;
+  color: #666666;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  transition: all 0.2s;
+
+}
+
+.textareaBlog:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+
+.textareaBlog:focus {
+  cursor: text;
+  color: #333333;
+  background-color: white;
+  border-color: #333333;
+}
+
+
+.buttonContainer {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  gap: 20px;
+  max-width: 600px;
+
+}
+
+.button1 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+
+}
+
+.button1:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+
+@media (max-width: 855px) {
+  .containerBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    color: white;
+  }
+
+  .containerBlog1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+      align-items: center; */
+
+    color: white;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    color: #000;
+  }
+
+  .blogImg {
+    /* box-shadow: 0 20px 50px rgb(23, 32, 90); */
+    background: #111845a6;
+    border: 1px solid #F2F2F2 ;
+    /* max-width: 100px; */
+
+  }
+
+  .content {
+    font-size: 15px;
+  }
+
+  .title,
+  .blogImg,
+  .content,
+  .comment {
+    margin: 30px 40px 30px 40px;
+
+  }
+
+  .textareaBlog {
+    width: 60vw;
+    height: 10vw;
+
+  }
+
+  .buttonContainer {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    
+    width: auto;
+  
+  }
+  
+  .button1 {
+    font-size: 13px;
+    /* letter-spacing: 2px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid;
+    /* padding: 0.25em 0.5em; */
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+  
+  }
+
+}

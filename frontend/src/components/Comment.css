@@ -1,0 +1,100 @@
+/* .tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #ccc;
+} */
+
+/* .tip-up {
+  top: -25px; 
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+} */
+
+/* .tip-down {
+  bottom: -25px;
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+} */
+
+/* .tip-left {
+  top: 10px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+} */
+
+/* .tip-right {
+  top: 10px;
+  right: -25px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;  
+} */
+
+.dialogbox .body4 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 640px;
+  background-color: #DADADA;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.body4 .message {
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 17px;
+  line-height: 1.5;
+  color: black;
+}
+.body4 .time{
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+.container1{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 555px) {
+  .dialogbox .body4 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    width: 330px;
+    background-color: #DADADA;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  .body4 .message {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 1.5;
+    color: black;
+  }
+  .body4 .time{
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+  }
+  
+
+}
